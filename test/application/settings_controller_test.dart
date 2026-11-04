@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:neon_stack/core/utils/shared_prefs_provider.dart';
-import 'package:neon_stack/features/high_score/application/high_score_provider.dart';
-import 'package:neon_stack/features/settings/application/settings_controller.dart';
+import 'package:pixel_surge/core/utils/shared_prefs_provider.dart';
+import 'package:pixel_surge/features/high_score/application/high_score_provider.dart';
+import 'package:pixel_surge/features/settings/application/settings_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

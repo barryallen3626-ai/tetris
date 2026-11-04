@@ -1,4 +1,4 @@
-package com.neonstack.neon_stack
+package com.pixelsurge.pixel_surge
 
 import io.flutter.embedding.android.FlutterActivity
 

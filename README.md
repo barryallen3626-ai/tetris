@@ -1,4 +1,4 @@
-# NEON STACK ⚡
+# PIXEL SURGE ⚡
 
 A cyber-themed Tetris-style falling block game built with Flutter and Riverpod. Featuring high-contrast neon aesthetics, an animated cyber grid background, tactile haptics, and pure Dart game logic following strict DRY and layered architecture principles.
 

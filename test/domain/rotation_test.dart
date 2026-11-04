@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:neon_stack/core/constants/game_constants.dart';
-import 'package:neon_stack/features/game/domain/board.dart';
-import 'package:neon_stack/features/game/domain/piece.dart';
-import 'package:neon_stack/features/game/domain/tetromino_type.dart';
+import 'package:pixel_surge/core/constants/game_constants.dart';
+import 'package:pixel_surge/features/game/domain/board.dart';
+import 'package:pixel_surge/features/game/domain/piece.dart';
+import 'package:pixel_surge/features/game/domain/tetromino_type.dart';
 
 void main() {
   group('Rotation and wall kicks', () {

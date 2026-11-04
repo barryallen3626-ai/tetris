@@ -15,7 +15,7 @@ Future<void> main() async {
       overrides: [
         sharedPreferencesProvider.overrideWithValue(prefs),
       ],
-      child: const NeonStackApp(),
+      child: const PixelSurgeApp(),
     ),
   );
 }

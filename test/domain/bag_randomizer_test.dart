@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:neon_stack/core/constants/game_constants.dart';
-import 'package:neon_stack/features/game/domain/bag_randomizer.dart';
-import 'package:neon_stack/features/game/domain/tetromino_type.dart';
+import 'package:pixel_surge/core/constants/game_constants.dart';
+import 'package:pixel_surge/features/game/domain/bag_randomizer.dart';
+import 'package:pixel_surge/features/game/domain/tetromino_type.dart';
 
 void main() {
   group('BagRandomizer 7-bag generation', () {

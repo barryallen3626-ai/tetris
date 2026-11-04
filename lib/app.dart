@@ -4,8 +4,8 @@ import 'core/theme/app_theme.dart';
 import 'features/home/presentation/home_screen.dart';
 
 /// Root application widget configuring theme and primary entry route.
-class NeonStackApp extends StatelessWidget {
-  const NeonStackApp({super.key});
+class PixelSurgeApp extends StatelessWidget {
+  const PixelSurgeApp({super.key});
 
   @override
   Widget build(BuildContext context) {

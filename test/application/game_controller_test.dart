@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:neon_stack/core/utils/shared_prefs_provider.dart';
-import 'package:neon_stack/features/game/application/game_controller.dart';
-import 'package:neon_stack/features/game/domain/game_state.dart';
+import 'package:pixel_surge/core/utils/shared_prefs_provider.dart';
+import 'package:pixel_surge/features/game/application/game_controller.dart';
+import 'package:pixel_surge/features/game/domain/game_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -13,7 +13,7 @@ void main() {
     late SharedPreferences prefs;
 
     setUp(() async {
-      SharedPreferences.setMockInitialValues({'neon_stack_high_score': 500});
+      SharedPreferences.setMockInitialValues({'pixel_surge_high_score': 500});
       prefs = await SharedPreferences.getInstance();
       container = ProviderContainer(
         overrides: [

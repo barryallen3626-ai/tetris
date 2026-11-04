@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:neon_stack/core/constants/strings.dart';
-import 'package:neon_stack/core/utils/shared_prefs_provider.dart';
-import 'package:neon_stack/features/game/presentation/game_screen.dart';
-import 'package:neon_stack/features/game/presentation/widgets/board_view.dart';
-import 'package:neon_stack/features/game/presentation/widgets/control_pad.dart';
-import 'package:neon_stack/features/game/presentation/widgets/hold_panel.dart';
-import 'package:neon_stack/features/game/presentation/widgets/next_queue_panel.dart';
-import 'package:neon_stack/features/home/presentation/home_screen.dart';
-import 'package:neon_stack/features/settings/presentation/settings_screen.dart';
+import 'package:pixel_surge/core/constants/strings.dart';
+import 'package:pixel_surge/core/utils/shared_prefs_provider.dart';
+import 'package:pixel_surge/features/game/presentation/game_screen.dart';
+import 'package:pixel_surge/features/game/presentation/widgets/board_view.dart';
+import 'package:pixel_surge/features/game/presentation/widgets/control_pad.dart';
+import 'package:pixel_surge/features/game/presentation/widgets/hold_panel.dart';
+import 'package:pixel_surge/features/game/presentation/widgets/next_queue_panel.dart';
+import 'package:pixel_surge/features/home/presentation/home_screen.dart';
+import 'package:pixel_surge/features/settings/presentation/settings_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -18,7 +18,7 @@ void main() {
   late SharedPreferences prefs;
 
   setUp(() async {
-    SharedPreferences.setMockInitialValues({'neon_stack_high_score': 8400});
+    SharedPreferences.setMockInitialValues({'pixel_surge_high_score': 8400});
     prefs = await SharedPreferences.getInstance();
   });
 

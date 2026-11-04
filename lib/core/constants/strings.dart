@@ -3,7 +3,7 @@ class AppStrings {
   const AppStrings._();
 
   // App & Header
-  static const String appTitle = 'NEON STACK';
+  static const String appTitle = 'PIXEL SURGE';
   static const String appSubtitle = 'CYBERPUNK PROTOCOL v1.0';
 
   // Navigation & Buttons

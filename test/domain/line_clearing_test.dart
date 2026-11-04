@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:neon_stack/core/constants/game_constants.dart';
-import 'package:neon_stack/features/game/domain/board.dart';
+import 'package:pixel_surge/core/constants/game_constants.dart';
+import 'package:pixel_surge/features/game/domain/board.dart';
 
 void main() {
   group('Line clearing and row shifting', () {

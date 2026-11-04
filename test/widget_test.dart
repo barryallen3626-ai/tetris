@@ -1,15 +1,15 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:neon_stack/app.dart';
-import 'package:neon_stack/core/constants/strings.dart';
-import 'package:neon_stack/core/utils/shared_prefs_provider.dart';
+import 'package:pixel_surge/app.dart';
+import 'package:pixel_surge/core/constants/strings.dart';
+import 'package:pixel_surge/core/utils/shared_prefs_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('NeonStackApp boots and renders home screen', (tester) async {
-    SharedPreferences.setMockInitialValues({'neon_stack_high_score': 1000});
+  testWidgets('PixelSurgeApp boots and renders home screen', (tester) async {
+    SharedPreferences.setMockInitialValues({'pixel_surge_high_score': 1000});
     final prefs = await SharedPreferences.getInstance();
 
     await tester.pumpWidget(
@@ -17,7 +17,7 @@ void main() {
         overrides: [
           sharedPreferencesProvider.overrideWithValue(prefs),
         ],
-        child: const NeonStackApp(),
+        child: const PixelSurgeApp(),
       ),
     );
     await tester.pump();

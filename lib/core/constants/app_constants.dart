@@ -3,15 +3,15 @@ class AppConstants {
   const AppConstants._();
 
   /// App info
-  static const String appName = 'NEON STACK';
-  static const String appTagline = 'CYBERPUNK TETRIS PROTOCOL';
+  static const String appName = 'PIXEL SURGE';
+  static const String appTagline = 'CYBERPUNK PIXEL PROTOCOL';
   static const String appVersion = '1.0.0';
 
   /// SharedPreferences storage keys
-  static const String keyHighScore = 'neon_stack_high_score';
-  static const String keySoundEnabled = 'neon_stack_sound_enabled';
-  static const String keyHapticsEnabled = 'neon_stack_haptics_enabled';
-  static const String keyGhostEnabled = 'neon_stack_ghost_enabled';
+  static const String keyHighScore = 'pixel_surge_high_score';
+  static const String keySoundEnabled = 'pixel_surge_sound_enabled';
+  static const String keyHapticsEnabled = 'pixel_surge_haptics_enabled';
+  static const String keyGhostEnabled = 'pixel_surge_ghost_enabled';
 
   /// Animation durations
   static const Duration lineClearDuration = Duration(milliseconds: 250);
